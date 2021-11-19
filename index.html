@@ -1,5 +1,93 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://github.com/profoundinventions</title>
-<meta http-equiv="refresh" content="0; URL=https://github.com/profoundinventions/">
-<link rel="canonical" href="https://github.com/profoundinventions/">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profound Inventions</title>
+</head>
+<style>
+    @keyframes slideFromTop {
+        0% {
+            transform: translateY(-50%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .text-pi {
+    }
+
+    .text-creates {
+        display: block;
+    }
+    .text-innovative {
+        display: block;
+    }
+
+    .text {
+        padding-top: 2.25rem;
+    }
+
+    .text > * {
+        display: block;
+    }
+
+    @media screen and (min-width: 1224px) {
+        .text {
+            margin-top: 0;
+            position: absolute;
+            top: 93px;
+            left: 160px;
+            overflow: hidden;
+        }
+    }
+
+    header {
+        background: url(the-astronomer.png);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 2.75rem;
+        min-height: 800px;
+        transition: all;
+    }
+
+    footer {
+        box-sizing: border-box;
+        min-height: 5rem;
+        background: #666;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.7rem;
+        margin: 1px 2px 0;
+        border-radius: 5px;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        background: #000;
+    }
+    .animated {
+        animation: 2s ease-out 0s 1 slideFromTop;
+        animation-fill-mode: both;
+    }
+</style>
+<body>
+    <header>
+        <div class="text">
+            <span class="text-pi animated">Profound Inventions</span>
+            <span class="text-creates animated">creates</span>
+            <span class="text-innovative animated">innovative software.</span>
+        </div>
+    </header>
+    <footer>
+        <span>© 2021 Profound Inventions LLC</span>
+       <a href="mailto:support@profoundinventions.com">contact</a>
+    </footer>
+</body>
+</html>
