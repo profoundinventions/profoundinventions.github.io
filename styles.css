@@ -5,12 +5,13 @@ body, html {
 
 body {
     background: #333;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'JetBrains Mono', mono-space, sans-serif;
     line-height: 1.4;
 }
 
 strong {
-    font-family: 'JetBrains Mono Bold', sans-serif;
+    font-family: 'JetBrains Mono', mono-space, sans-serif;
+    color: #00d800;
     font-weight: bold;
 }
 
@@ -21,7 +22,7 @@ h1, h2 {
 }
 
 ul {
-    margin: 0 1.25rem;
+    margin: 1rem 1.25rem;
     padding: 0;
 }
 
@@ -39,7 +40,7 @@ li {
     flex-direction: column;
     padding: 1.2rem 3.4rem;
     margin: 1rem auto;
-    max-width: 48rem;
+    max-width: 49rem;
 }
 
 .logo {
@@ -71,6 +72,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .copyright {
     font-size: small;
 }
@@ -82,12 +87,13 @@ a {
     padding: .5rem 3.4rem;
     color: #333;
     margin-bottom: 1.2rem;
+    font-weight: bold;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
     background: #f6f8f9; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0); /* IE6-9 */
 }
