@@ -54,7 +54,7 @@ li {
 }
 
 .heading-text > * {
-    margin: 0 2px;
+    margin: .75rem 2px;
 }
 
 .heading-text h1 {
@@ -70,10 +70,6 @@ hr {
 a {
     color: #6072ff;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .copyright {
@@ -96,4 +92,10 @@ a:hover {
     background: -webkit-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0); /* IE6-9 */
+}
+
+.title-bar img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 2px;
 }

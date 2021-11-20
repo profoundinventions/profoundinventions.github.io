@@ -12,7 +12,10 @@
 <body>
 <div class="content">
     <div class="title-bar">
-        <a href="/">Profound Inventions</a> &gt; PHPStorm Plugins
+        <a href="/">
+            <img src="folder.svg" style="width: 24px" alt="folder">
+            Profound Inventions
+        </a> &gt; PHPStorm Plugins
     </div>
     <div class="heading-text">
         <img src="php-logo.svg" alt="PHP" class="logo">
@@ -22,14 +25,20 @@
     <p>PHP Houdini is a PhpStorm plugin that adds configurable autocompletion
         for classes that use magic methods and properties.</p>
     <h2>Why?</h2>
+    <p>PHPStorm gives you great autocompletion functionality - but you lose that when you have classes
+        with magic methods or magic properties.</p>
+    <p>For those classes, you have to add <strong>@method</strong> or <strong>@property</strong> annotations for every
+        method or property you make to get autocompletion, which can get tedious. Why bother dealing with configuring
+        your autocompletion to "save time" when you have to spend too much time on keeping it up to date?</p>
+    <p>PHP Houdini lets you configure autocompletion for those classes more efficiently by using a config file so
+        you can get autocompletion for magic properties and methods and stay in the flow.</p>
     <ul>
         <li><strong>Highly Configurable</strong> Use a config file to describe your classes that have magic methods.
             No menus to slog through.
         </li>
         <li><strong>Self-documenting Fluent API</strong> Use PHP to describe your magic classes.
-            Configure your classes with a fluent PHP API that has autocompletion for itself - so you can use PhpStorm
-            to aid you in configuring your own specialized autocompletion. No JSON API or specialized DSL
-            to learn that you'll just forget later.
+            Configure your classes with a fluent PHP API that itself has autocompletion so you don't
+            have to memorize it. No JSON API or specialized DSL to learn that you'll just forget later.
         </li>
         <li><strong>Magically Flexible</strong> Promote private or protected fields for public visibility. Add
             completion for getter methods from properties, or properties from constants, or methods from complex
