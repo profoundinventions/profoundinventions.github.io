@@ -5,7 +5,9 @@
     <title>Profound Inventions</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
 </head>
 <style>
     @keyframes slideFromTop {
@@ -19,45 +21,35 @@
         }
     }
 
-    .text-creates {
-        display: block;
-    }
-    .text-innovative {
-        display: block;
-    }
-
-    .text {
-        padding-top: 2.25rem;
-    }
-
-    .text > * {
-        display: block;
-    }
-
     a {
         color: white;
     }
 
-    @media screen and (min-width: 1224px) {
-        .text {
-            padding-top: 0;
-            top: 63px;
-            left: 160px;
-            overflow: hidden;
-        }
+    .animated {
+        animation: 250ms ease-out 0s 1 slideFromTop;
+        animation-fill-mode: both;
+        animation-delay: 200ms;
+    }
+
+    body, html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: 'JetBrains Mono', mono-space, sans-serif;
     }
 
     header {
+        flex: 1 0 auto;
         background: url(the-astronomer.png) no-repeat;
         background-size: cover;
-        font-family: 'DM Sans', sans-serif;
         text-align: center;
-        color: #fff;
-        font-size: 2.75rem;
-        min-height: 800px;
     }
 
     footer {
+        flex-shrink: 0;
         box-sizing: border-box;
         min-height: 5rem;
         background: #666;
@@ -66,26 +58,23 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 1.7rem;
-        margin: 1px 2px 0;
-        border-radius: 5px;
-    }
-
-    body, html {
-        margin: 0;
-        padding: 0;
-        background: #000;
-    }
-    .animated {
-        animation: 2s ease-out 0s 1 slideFromTop;
-        animation-fill-mode: both;
     }
 </style>
 <body>
     <header>
-        <div class="text">
-            <span class="text-pi animated">Profound Inventions</span>
-            <span class="text-creates animated">creates</span>
-            <span class="text-innovative animated">innovative software.</span>
+        <div class="window animated">
+            <div class="title-bar">
+                Profound Inventions
+            </div>
+            <div class="content">
+                <p>Profound Inventions<br>creates innovative software<br>
+                    like</p>
+                <a href="https://www.profoundinventions.com/php-houdini.html" class="heading-text">
+                    <img src="php-logo.svg" alt="PHP" class="logo">
+                    <h1>Houdini</h1>
+                    <img src="wizard-hat.png" alt="wizard-hat">
+                </a>
+            </div>
         </div>
     </header>
     <footer>

@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    font-family: 'JetBrains Mono', mono-space, sans-serif;
+    line-height: 1.4;
+}
+
+ul {
+    margin: 1rem 1.25rem;
+    padding: 0;
+}
+
+li {
+    margin-bottom: .75rem;
+}
+
+strong {
+    font-family: 'JetBrains Mono', mono-space, sans-serif;
+    color: #00f800;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: .5rem;
+    color: #00f000;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid green;
+}
+
+a {
+    color: #6072ff;
+    text-decoration: none;
+}
+
+.logo {
+    width: 6rem;
+    vertical-align: baseline;
+}
+
+.window {
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background: #000;
+    color: #00c000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.2rem 3.4rem;
+    margin: 1rem auto;
+    max-width: 49rem;
+}
+
+.window .title-text {
+
+}
+
+.window .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.window .title-bar {
+    text-align: center;
+    width: 100%;
+    margin-top: -1.2rem;
+    padding: .5rem 3.4rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0); /* IE6-9 */
+}
+
+.window .title-bar img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 2px;
+}
+
+.copyright {
+    font-size: small;
+}
+
+.window .heading-text {
+    display: flex;
+    align-items: center;
+}
+
+.window .heading-text > * {
+    margin: .75rem 2px;
+}
+
+.window .heading-text h1 {
+    display: flex;
+    align-items: center;
+}
+
