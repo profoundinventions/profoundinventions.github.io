@@ -18,6 +18,11 @@ li {
     margin-bottom: .75rem;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 strong {
     font-family: 'JetBrains Mono', mono-space, sans-serif;
     color: #00f800;
@@ -33,11 +38,6 @@ h1, h2 {
 hr {
     width: 100%;
     border: 1px solid green;
-}
-
-a {
-    color: #6072ff;
-    text-decoration: none;
 }
 
 .logo {
@@ -80,10 +80,7 @@ a {
     border-top-right-radius: 1rem;
 
     background: #f6f8f9; /* Old browsers */
-    background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0); /* IE6-9 */
 }
 
 .window .title-bar img {
@@ -110,3 +107,6 @@ a {
     align-items: center;
 }
 
+.window a {
+    color: #6072ff;
+}
