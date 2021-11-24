@@ -10,70 +10,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/reset.css?v=1">
     <link rel="stylesheet" href="css/common.css?v=2">
+    <style>
+        .container {
+            margin: 0 auto;
+            max-width: 51rem;
+        }
+    </style>
+
 </head>
 <body>
-    <div class="window">
+    <div class="container">
+        <div class="window">
 
-        <div class="title-bar">
-            <a href="/">
-                <img src="img/folder.svg" style="width: 24px" alt="folder">
-                Profound Inventions
-            </a> &gt; PHPStorm Plugins
+            <div class="title-bar">
+                <a href="/">
+                    <img src="img/folder.svg" style="width: 24px" alt="folder">
+                    Profound Inventions
+                </a> &gt; PHPStorm Plugins
+            </div>
+
+            <div class="content">
+                <div class="heading-text">
+                    <img src="img/php-logo.svg" alt="PHP" class="logo">
+                    <h1>Houdini</h1>
+                    <img src="img/wizard-hat.png" alt="wizard-hat">
+                </div>
+                <p>PHP Houdini is a PhpStorm plugin that adds configurable autocompletion
+                    for classes that use magic methods and properties.</p>
+
+                <img style="margin: 1.5rem 0" src="img/houdini-screencast.gif">
+
+                <h2>Why?</h2>
+                <p>PHPStorm gives you great autocompletion functionality - but you lose that when you have classes
+                    with magic methods or magic properties.</p>
+                <p>For those classes, you have to add <strong>@method</strong> or <strong>@property</strong> annotations for every
+                    method or property you make to get autocompletion, which can get tedious. Why bother dealing with configuring
+                    your autocompletion to "save time" when you have to spend too much time on keeping it up to date?</p>
+                <p>PHP Houdini lets you configure autocompletion for those classes more efficiently by using a config file so
+                    you can get autocompletion for magic properties and methods and stay in the flow.</p>
+                <ul>
+                    <li><strong>Highly Configurable</strong> Use a config file to describe your classes that have magic methods.
+                        No menus to slog through.
+                    </li>
+                    <li><strong>Self-documenting Fluent API</strong> Use PHP to describe your magic classes.
+                        Configure your classes with a fluent PHP API that itself has autocompletion so you don't
+                        have to memorize it. No JSON API or specialized DSL to learn that you'll just forget later.
+                    </li>
+                    <li><strong>Magically Flexible</strong> Promote private or protected fields for public visibility. Add
+                        completion for getter methods from properties, or properties from constants, or methods from complex
+                        array patterns, in any combination.
+                    </li>
+                </ul>
+                <h2>Download</h2>
+                <p><a href="">Click here</a> to add PHP Houdini to PhpStorm / IntelliJ Ultimate.</p>
+                <h2>How Much?</h2>
+                <p>Free for 30 days. $14.99 per year.</p>
+                <h2>Tutorial</h2>
+                <p><a href="https://www.profoundinventions.com/php-houdini/">Click here</a> to
+                    learn how to configure the plugin for your classes.</p>
+                <h2>Support</h2>
+                <p>Have a question or feature request? <a href="mailto:support@profoundinventions.com">Please let us know.</a></p>
+                <hr>
+                <div class="copyright">
+                    <p>PHP Logo &copy; Colin Viebrock and used under <a href="">Creative Commons license</a>.</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="content">
-            <div class="heading-text">
-                <img src="img/php-logo.svg" alt="PHP" class="logo">
-                <h1>Houdini</h1>
-                <img src="img/wizard-hat.png" alt="wizard-hat">
-            </div>
-            <p>PHP Houdini is a PhpStorm plugin that adds configurable autocompletion
-                for classes that use magic methods and properties.</p>
-
-            <img style="margin: 1.5rem 0" src="img/houdini-screencast.gif">
-
-            <h2>Why?</h2>
-            <p>PHPStorm gives you great autocompletion functionality - but you lose that when you have classes
-                with magic methods or magic properties.</p>
-            <p>For those classes, you have to add <strong>@method</strong> or <strong>@property</strong> annotations for every
-                method or property you make to get autocompletion, which can get tedious. Why bother dealing with configuring
-                your autocompletion to "save time" when you have to spend too much time on keeping it up to date?</p>
-            <p>PHP Houdini lets you configure autocompletion for those classes more efficiently by using a config file so
-                you can get autocompletion for magic properties and methods and stay in the flow.</p>
-            <ul>
-                <li><strong>Highly Configurable</strong> Use a config file to describe your classes that have magic methods.
-                    No menus to slog through.
-                </li>
-                <li><strong>Self-documenting Fluent API</strong> Use PHP to describe your magic classes.
-                    Configure your classes with a fluent PHP API that itself has autocompletion so you don't
-                    have to memorize it. No JSON API or specialized DSL to learn that you'll just forget later.
-                </li>
-                <li><strong>Magically Flexible</strong> Promote private or protected fields for public visibility. Add
-                    completion for getter methods from properties, or properties from constants, or methods from complex
-                    array patterns, in any combination.
-                </li>
-            </ul>
-            <h2>Download</h2>
-            <p><a href="">Click here</a> to add PHP Houdini to PhpStorm / IntelliJ Ultimate.</p>
-            <h2>How Much?</h2>
-            <p>Free for 30 days. $14.99 per year.</p>
-            <h2>Tutorial</h2>
-            <p><a href="https://www.profoundinventions.com/php-houdini/">Click here</a> to
-                learn how to configure the plugin for your classes.</p>
-            <h2>Support</h2>
-            <p>Have a question or feature request? <a href="mailto:support@profoundinventions.com">Please let us know.</a></p>
-            <hr>
-            <div class="copyright">
-                <p>PHP Logo &copy; Colin Viebrock and used under <a href="">Creative Commons license</a>.</p>
-            </div>
-        </div>
-
+        <footer>
+            <span>© 2021 Profound Inventions LLC</span>
+            <a href="mailto:support@profoundinventions.com">contact</a>
+        </footer>
     </div>
-
-    <footer>
-        <span>© 2021 Profound Inventions LLC</span>
-        <a href="mailto:support@profoundinventions.com">contact</a>
-    </footer>
 
 </body>
 </html>
