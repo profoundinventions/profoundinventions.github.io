@@ -8,58 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="common.css?v=1">
+    <link rel="stylesheet" href="css/reset.css?v=1">
+    <link rel="stylesheet" href="css/common.css?v=2">
+    <link rel="stylesheet" href="css/index.css?v=1">
 </head>
-<style>
-    @keyframes slideFromTop {
-        0% {
-            transform: translateY(-50%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-
-    .animated {
-        animation: 250ms ease-out 0s 1 slideFromTop;
-        animation-fill-mode: both;
-        animation-delay: 200ms;
-    }
-
-    body, html {
-        height: 100%;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        font-family: 'JetBrains Mono', mono-space, sans-serif;
-    }
-
-    header {
-        flex: 1 0 auto;
-        background: url(the-astronomer.png) no-repeat;
-        background-size: cover;
-        text-align: center;
-    }
-
-    header .window {
-        background-color: rgba(0, 0, 0, 0.82);
-    }
-
-    footer {
-        flex-shrink: 0;
-        box-sizing: border-box;
-        min-height: 5rem;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 1.7rem;
-    }
-</style>
 <body>
     <header>
         <div class="window animated">
@@ -70,9 +22,9 @@
                 <p>Profound Inventions<br>creates innovative software<br>
                     like</p>
                 <a href="https://www.profoundinventions.com/php-houdini.html" class="heading-text">
-                    <img src="php-logo.svg" alt="PHP" class="logo">
+                    <img src="img/php-logo.svg" alt="PHP" class="logo">
                     <h1>Houdini</h1>
-                    <img src="wizard-hat.png" alt="wizard-hat">
+                    <img src="img/wizard-hat.png" alt="wizard-hat">
                 </a>
             </div>
         </div>
