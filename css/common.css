@@ -58,13 +58,13 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 3rem auto 0;
     max-width: 49rem;
+    margin: 1.8rem auto 0;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (min-width: 48rem) {
     .window {
-        margin: 1.8rem auto 0;
+        margin: 3rem auto 0;
     }
 }
 
@@ -72,12 +72,12 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 1.4rem 3.4rem;
+    padding: 1.4rem 1.25rem;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (min-width: 48rem) {
     .window .content {
-        padding: 1.4rem 1.25rem;
+        padding: 1.4rem 3.4rem;
     }
 }
 
@@ -128,17 +128,17 @@ footer {
     flex-shrink: 0;
     box-sizing: border-box;
     min-height: 5rem;
-    font-size: 1rem;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.7rem;
+    font-size: .75rem;
+    padding: 0 .75rem;
 }
 
-@media screen and (max-width: 50rem) {
+@media screen and (min-width: 48rem) {
     footer {
-        font-size: .75rem;
-        padding: 0 .75rem;
+        font-size: 1rem;
+        padding: 0 1.7rem;
     }
 }
