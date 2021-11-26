@@ -6,12 +6,17 @@ body, html {
 body {
     background: #333;
     font-family: 'JetBrains Mono', mono-space, sans-serif;
-    line-height: 1.4;
 }
 
 ul {
-    margin: 1rem 1.25rem;
+    margin: 1rem .75rem;
     padding: 0;
+}
+
+@media screen and (min-width: 48rem) {
+    ul {
+        margin: 1rem 1.25rem;
+    }
 }
 
 li {
@@ -70,11 +75,17 @@ hr {
     padding: 1.4rem 3.4rem;
 }
 
+@media screen and (max-width: 48rem) {
+    .window .content {
+        padding: 1.4rem 1.25rem;
+    }
+}
+
 .window .title-bar {
     text-align: center;
     width: 100%;
     margin-top: -1.2rem;
-    padding: .5rem 3.4rem;
+    padding: .5rem 1.25rem;
     color: #333;
     font-weight: bold;
     border-top-left-radius: 1rem;
@@ -128,5 +139,6 @@ footer {
 @media screen and (max-width: 50rem) {
     footer {
         font-size: .75rem;
+        padding: 0 .75rem;
     }
 }
