@@ -4,7 +4,7 @@
 /php-houdini.html /houdini-splash.html 200
 
 # Serve /php-houdini from houdini-splash.html (without exposing the actual file)
-/php-houdini https://iridescent-taffy-aa4db8.netlify.app/ 200
+/php-houdini https://iridescent-taffy-aa4db8.netlify.app/ 200!
 
 # Redirect /php-houdini/ to the external site
 /php-houdini/  https://iridescent-taffy-aa4db8.netlify.app/ 200
