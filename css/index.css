@@ -27,8 +27,9 @@ body {
 
 header {
     flex: 1 0 auto;
-    background: url(../img/the-astronomer.png) no-repeat;
+    background: url(../img/the-astronomer.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
