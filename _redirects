@@ -1,2 +1,3 @@
 /php-houdini-tutorial/*  https://iridescent-taffy-aa4db8.netlify.app/:splat  200
-/php-houdini /php-houdini/ 301
+/php-houdini /php-houdini/index.html 301
+/php-houdini/ /php-houdini/index.html 301
