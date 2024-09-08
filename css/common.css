@@ -126,6 +126,10 @@ hr {
     text-decoration: underline;
 }
 
+.window a.no-underline {
+    text-decoration: none;
+}
+
 footer {
     flex-shrink: 0;
     box-sizing: border-box;
