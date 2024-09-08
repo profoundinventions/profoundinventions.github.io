@@ -94,10 +94,12 @@
         </footer>
     </div>
 
-    <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+    <script async src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
     <script>
         // Please, replace #yourelement with a real element id on your webpage
-        MarketplaceWidget.setupMarketplaceWidget('install', 18981, "#download");
+        window.addEventListener('load', function() {
+            MarketplaceWidget.setupMarketplaceWidget('install', 18981, "#download");
+        })
     </script>
 </body>
 </html>
