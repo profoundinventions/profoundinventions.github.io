@@ -123,6 +123,7 @@ hr {
 
 .window a {
     color: #6072ff;
+    text-decoration: underline;
 }
 
 footer {
